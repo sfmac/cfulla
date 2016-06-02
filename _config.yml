@@ -4,6 +4,8 @@ email: info@southernmartialarts.com.au
 url: http://crossfitulladulla.com
 description: ""
 
+baseurl: http://sfmac.github.io/cfulla/
+
 # Color settings (hex-codes without the leading hash-tag)
 color:
   primary-dark: '#222222'
