@@ -54,7 +54,7 @@ a {
 a:hover,
 a:focus {
     text-decoration: none;
-    color: #11505d;
+    color: {{site.color.contrast-3}};
 }
 
 .light {
@@ -252,6 +252,25 @@ a:focus {
     padding-top: 100px;
 }
 
+
+.contrast-1 {
+    width: 100%;
+    color: #fff;
+    background-color: {{ site.color.contrast-1 }};
+}
+
+.contrast-2 {
+    width: 100%;
+    color: #fff;
+    background-color: {{ site.color.contrast-2 }};
+}
+
+.contrast-3 {
+    width: 100%;
+    color: #fff;
+    background-color: {{ site.color.contrast-3 }};
+}
+
 .download-section {
     width: 100%;
     padding: 50px 0;
@@ -304,7 +323,7 @@ a:focus {
 .btn-default:focus {
     border: 1px solid {{ site.color.links }};
     outline: 0;
-    color: {{ site.color.primary-dark }};
+    color: {{ site.color.contrast-2 }};
     background-color: {{ site.color.links }};
 }
 

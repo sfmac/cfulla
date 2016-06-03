@@ -1,31 +1,26 @@
 # Site settings
 title:
-email: info@southernmartialarts.com.au
+email: info@crossfitulladulla.com
 url: http://crossfitulladulla.com
 description: ""
 
-baseurl: http://sfmac.github.io/cfulla/
+baseurl: /cfulla
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary-dark: '#222222'
-  links: '#216DA7'
+  primary-dark: '#042037'
+  contrast-1: '#123552'
+  contrast-2: '#2A4F6E'
+  contrast-3: '#496C89'
+  links: '#718DA5'
 
 # Footer settings
 footer: Southern Martial Arts
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: https://twitter.com/SBootstrap
   - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket
-    url: http://bitbucket.org/jekyll
-  - title: github
-    url: https://github.com/IronSummitMedia/startbootstrap
+    url: https://www.facebook.com/SouthernMartialArts/
 
 # Build settings
 markdown: kramdown
